@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffe6a7;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    color:#432818;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+#new_game{
+    padding:14px 30px;
+    border-radius: 23px;
+    border:none;
+    background-color: #99582A;
+    color: #ffe6a7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:36vh;
+    left:36%;
+}
+
+.btn_new_game{
+    text-decoration: none;
+    color:#ffe6a7;
+}
